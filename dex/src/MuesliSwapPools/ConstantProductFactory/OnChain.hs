@@ -70,13 +70,13 @@ mkFactoryCoin :: (V2.CurrencySymbol, V2.TokenName)
 mkFactoryCoin = (mkFactorySymbol, mkFactoryTokenName)
 
 batcherLicenseSymbolHardCode :: Text.Hex.Text
-batcherLicenseSymbolHardCode = "b686e45c9181618e20e26cf0e2fc1e9f336bb0df914e645b5adad5bd"
+batcherLicenseSymbolHardCode = "518b8a29a3fc8151ca5763c8d1eb481c2a6205f95bfbab5d7172b80e"
 
 swapperLicenseSymbolHardCode :: Text.Hex.Text
-swapperLicenseSymbolHardCode = "f94fd008635cf307663aadd995ed69d5fbbfd65f84679fc38254d664"
+swapperLicenseSymbolHardCode = "518b8a29a3fc8151ca5763c8d1eb481c2a6205f95bfbab5d7172b80e"
 
 creatorLicenseSymbolHardCode :: Text.Hex.Text
-creatorLicenseSymbolHardCode = "ed8074e8768199746ee58aed1f8b005eaa812afa44a268230603e969"
+creatorLicenseSymbolHardCode = "518b8a29a3fc8151ca5763c8d1eb481c2a6205f95bfbab5d7172b80e"
 
 {-# INLINEABLE mkBatcherLicenseSymbol #-}
 mkBatcherLicenseSymbol :: V2.CurrencySymbol
